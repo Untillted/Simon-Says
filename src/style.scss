@@ -35,7 +35,7 @@
     // .tile_red
     &_red {
         flex: 0 0 50%;
-        background: #9d0500;
+        background: #ea6565;
         width: 150x;
         height: 150px;
         border-radius: 100% 0 0 0;
@@ -51,7 +51,7 @@
 
     &_blue {
         flex: 0 0 50%;
-        background: #0048ba;
+        background: #4890ff;
         width: 150px;
         height: 150px;
         border-radius: 0 100% 0 0;
@@ -68,16 +68,16 @@
 
     &_yellow {
         flex: 0 0 50%;
-        background: #ffdb00;
+        background: #eff385;
         width: 150px;
         height: 150px;
         border-radius: 0 0 0 100%;
         transition: background 0.2s ease;
         &:hover {
-            background: yellow;
+            background: #766a00;
         }
         &_active {
-            background: yellow;
+            background: #766a00;
         }
     }
 
@@ -85,16 +85,16 @@
 
     &_green {
         flex: 0 0 50%;
-        background: #449f44;
+        background: #00b80b;
         width: 150px;
         height: 150px;
         border-radius: 0 0 100% 0;
         transition: background 0.2s ease;
         &:hover {
-            background: green;
+            background: #0b6e0b;
         }
         &_active {
-            background: green;
+            background: #0b6e0b;
         }
     }
 }

@@ -242,13 +242,10 @@ export default {
       const target = e.target.value;
       const t = this;
       if (target == "light") {
-        t.start();
         t.INTERVAL = 1500;
       } else if (target == "normal") {
-        t.start();
         t.INTERVAL = 1000;
       } else if (target == "hight") {
-        t.start();
         t.INTERVAL = 400;
       }
     },
@@ -260,9 +257,6 @@ export default {
       INTERVAL: 1500,
       game: true,
       lose: false,
-      // light: true,
-      // normal: false,
-      // hight: false,
       good: false,
       sound: true,
       colorRed: false,

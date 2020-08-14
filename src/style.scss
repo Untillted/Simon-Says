@@ -1,0 +1,144 @@
+.container {
+    margin: 0 auto;
+    width: 540px;
+    & h1 {
+        margin: 0;
+    }
+}
+.simon__content {
+    display: flex;
+    margin-top: 2em;
+}
+.simon {
+    // .simon__board
+
+    &__board {
+        flex: 0 0 60%;
+    }
+
+    // .simon__info
+
+    &__info {
+        flex: 0 0 40%;
+    }
+}
+.game-board {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    // overflow: hidden;
+}
+.tile {
+    // .tile_red
+    &_red {
+        flex: 0 0 50%;
+        background: #9d0500;
+        width: 150x;
+        height: 150px;
+        border-radius: 100% 0 0 0;
+        transition: background 0.2s ease;
+        &:hover {
+            background: red;
+        }
+        &_active {
+            background: red;
+        }
+    }
+    // .tile_blue
+
+    &_blue {
+        flex: 0 0 50%;
+        background: #0048ba;
+        width: 150px;
+        height: 150px;
+        border-radius: 0 100% 0 0;
+        transition: background 0.2s ease;
+        &:hover {
+            background: blue;
+        }
+        &_active {
+            background: blue;
+        }
+    }
+
+    // .tile_yellow
+
+    &_yellow {
+        flex: 0 0 50%;
+        background: #ffdb00;
+        width: 150px;
+        height: 150px;
+        border-radius: 0 0 0 100%;
+        transition: background 0.2s ease;
+        &:hover {
+            background: yellow;
+        }
+        &_active {
+            background: yellow;
+        }
+    }
+
+    // .tile_green
+
+    &_green {
+        flex: 0 0 50%;
+        background: #449f44;
+        width: 150px;
+        height: 150px;
+        border-radius: 0 0 100% 0;
+        transition: background 0.2s ease;
+        &:hover {
+            background: green;
+        }
+        &_active {
+            background: green;
+        }
+    }
+}
+
+.simon {
+    // .simon__info
+
+    &__info {
+        text-align: left;
+        margin-left: 1em;
+    }
+}
+.game-info {
+    &__button {
+        font-size: 1em;
+        padding: 0.7em 3em;
+        border-radius: 0.5em;
+        background: #77bcff;
+        text-transform: uppercase;
+        border: 0;
+        cursor: pointer;
+        filter: brightness(0.7);
+        transition: filter 0.2s ease;
+        &:focus {
+            outline: none;
+        }
+        &:hover {
+            filter: brightness(1);
+        }
+    }
+    & p {
+        font-size: 1.2em;
+    }
+}
+.game-options {
+    h2 {
+        margin: 0.5em 0;
+    }
+
+    // .game-options__inputs
+
+    &__inputs {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        font-weight: 600;
+    }
+}

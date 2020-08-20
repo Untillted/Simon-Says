@@ -1,4 +1,4 @@
-# simon
+# https://untillted.github.io/simon-says/ page
 
 ## Project setup
 ```
